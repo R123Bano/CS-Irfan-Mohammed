@@ -6,8 +6,8 @@
 .space {
     /* width: 100%;
     height: 100vh; */
-    width:360px;
-    height: 700px;
+    width:370px;
+    height: 790px;
     background-image: url('background.jpg');
     background-size: cover;
     
@@ -25,6 +25,7 @@ body{
         align-items: center;
         justify-content: center;
         background-color: #9ec4c28a;
+         gap: 10px;
     }
 .photo{
     width: 140px;
@@ -61,7 +62,7 @@ body{
   display: flex;
   justify-content: space-evenly;
   /* flex-wrap: wrap; */
-  width: 360px;
+  width: 370px;
   margin-top: 20px;
 }
 
@@ -101,9 +102,10 @@ body {
 }
 
 .card {
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  /* border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2); */
   padding: 20px;
+  margin: 10px 0px;
 }
 
 .info {
@@ -167,7 +169,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 15px;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 .social a {
   text-decoration: none;
@@ -177,7 +179,7 @@ body {
 
 
 .container {
-  width:360px;
+  width:370px;
   margin: auto;
   background: #d4e6f0;
   padding: 20px;
@@ -232,7 +234,7 @@ ul {
 
 
 .container {
-  width:360px;
+  width:370px;
   margin: 30px auto;   /* ऊपर और नीचे space */
   background: #e5eef3;
   padding: 20px;
