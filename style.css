@@ -91,3 +91,90 @@ body{
   background-color: #000;
   color: #fff;
 }
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 350px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  padding: 20px;
+}
+
+.info {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.info i {
+  margin-right: 10px;
+  color: teal;
+}
+
+.whatsapp-box {
+  display: flex;
+  margin: 15px 0;
+}
+.whatsapp-box input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+.whatsapp-box button {
+  background: #25D366;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.btn-group button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  background: #eee;
+}
+
+.save-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #666;
+  color: white;
+  border-radius: 6px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+.social a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #555;
+}
+
+
