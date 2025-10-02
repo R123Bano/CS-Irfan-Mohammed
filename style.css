@@ -101,8 +101,6 @@ body {
 }
 
 .card {
-  width: 350px;
-  background: #fff;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
   padding: 20px;
@@ -110,7 +108,7 @@ body {
 
 .info {
   margin: 10px 0;
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 .info i {
@@ -178,3 +176,119 @@ body {
 }
 
 
+.container {
+  width:360px;
+  margin: auto;
+  background: #d4e6f0;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.info p {
+  margin: 5px 0;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.about {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.download {
+  margin-top: 20px;
+}
+
+.download a {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #008060;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.download a:hover {
+  background: #005f46;
+}
+
+
+
+.container {
+  width:360px;
+  margin: 30px auto;   /* ऊपर और नीचे space */
+  background: #e5eef3;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* हर inner block को अलग दिखाने के लिए */
+.info, .speciality, .about, .download {
+  background: #e7eef1;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+  margin-bottom: 20px;
+}
+
+/* Section heading style */
+.section-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #009688;
+  padding-bottom: 5px;
+}
+
+/* Download button */
+.download a {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #008060;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.download a:hover {
+  background: #005f46;
+}
+
+
+.information {
+  display: grid;
+  gap: 5px; /* row spacing */
+  margin: 5px 0;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 120px 1fr; /* left label fixed width, right content flexible */
+  gap: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.value {
+  text-align: justify;
+}
